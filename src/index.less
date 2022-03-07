@@ -1,0 +1,39 @@
+@import '~antd/dist/antd.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ant-layout {
+  background: #F9FBFD;
+}
+
+
+h3.ant-typography.settings {
+  color: #00A3FF;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+// rounded theme
+.ant-tooltip-inner,
+.ant-popover-inner {
+  border-radius: 8px;
+}
+
+.ant-input-number {
+  width: 100%;
+}
+
+
+// For list add/remove
+.animated-list { opacity: 0; }
+.animated-list-enter {  opacity: 0; }
+.animated-list-enter-active {  opacity: 1;  transition: all 0.5s; }
+.animated-list-exit {  opacity: 1; }
+.animated-list-exit-active {  opacity: 0; transition: all 0.3s; }

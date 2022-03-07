@@ -1,0 +1,40 @@
+.card {
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.05);
+  margin: 2rem 0;
+  outline: 1px solid transparent;
+  transition: all 0.3s ease-in-out;
+
+  .cardTitle {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .cardBody {
+    white-space: pre-wrap;
+  }
+
+  :global {
+    * > div {
+      transition: all 0.3s ease-in-out;
+    }
+    .ant-card-head {
+      border-bottom: 0;
+
+    }
+    .ant-card-body {
+      padding-top: 0;
+      padding-bottom: 12px;
+    }
+  }
+}
+
+
+.selectedCard {
+  outline: 1px solid #00A3FF;
+}
+
+.divider {
+  margin-top: 0;
+  border-top: 2px solid #E0E0E0;
+}

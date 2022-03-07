@@ -1,0 +1,28 @@
+@import '~antd/es/style/themes/default.less';
+
+.mainLayout {
+  min-height: 100vh;
+}
+
+.layoutNav {
+  background: #FFFFFF;
+  height: 90px;
+  padding: 0 24px;
+
+  display: flex;
+  align-items: center;
+  border-bottom: #F2F2F2 1px solid;
+}
+
+.layoutContent {
+  display: flex;
+  flex: 1 1 auto;
+  height: 100%;
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: @screen-md) {
+  .layoutNav {
+    text-align: center;
+  }
+}

@@ -1,0 +1,25 @@
+.paletteBlock {
+  border: #E3E3E3 solid 3px;
+  border-radius: 3px;
+  width: 32px;
+  height: 32px;
+}
+
+.colorPicker {
+  :global {
+    .ant-popover-arrow {
+      display: none;
+    }
+    .ant-popover-inner {
+      border-radius: 6px;
+      background: transparent;
+    }
+    .ant-popover-inner-content {
+      padding: 0;
+
+      .block-picker {
+        box-shadow: none!important;
+      }
+    }
+  }
+}

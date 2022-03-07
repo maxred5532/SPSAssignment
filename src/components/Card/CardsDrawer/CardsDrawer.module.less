@@ -1,0 +1,25 @@
+@import '~antd/es/style/themes/default.less';
+
+.drawerRoot {
+  padding: 0;
+  :global {
+    .ant-drawer-content-wrapper {
+      margin-top: 80px;
+    }
+    .ant-drawer-content-wrapper, .ant-drawer-content {
+      border-radius: 16px 0 0 0;
+    }
+    .ant-drawer-mask {
+      background-color: rgba(0, 0, 0, 0);
+    }
+    .ant-drawer-body {
+      padding: 0;
+    }
+
+    @media screen and (max-width: @screen-sm) {
+      .ant-drawer-content-wrapper {
+        width: 100%!important;
+      }
+    }
+  }
+}
